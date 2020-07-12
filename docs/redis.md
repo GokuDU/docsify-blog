@@ -36,7 +36,7 @@ app ------》DAL------》MySQL
 
 发展过程：优化数据结构和索引---》文件缓存（IO）---》Memcached（当时最热门的技术）
 
-![image-20200614125948835](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614125948835.png)
+![image-20200614125948835](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614125948835.png)
 
 #### 3.分库分表+水平拆分+MySQL集群
 
@@ -52,7 +52,7 @@ app ------》DAL------》MySQL
 
 MySQL的集群，满足了那个年代几乎所有的需求
 
-![image-20200614132117224](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614132117224.png)
+![image-20200614132117224](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614132117224.png)
 
 #### 4.最近的年代
 
@@ -68,7 +68,7 @@ MySQL如果用来存储一个较大的数据，博客，图片，视频...压力
 
 #### 5.目前一个最基本的互联网项目
 
-![image-20200614134632231](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614134632231.png)
+![image-20200614134632231](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614134632231.png)
 
 
 
@@ -152,7 +152,7 @@ NoSQL = Not Only SQL （不仅仅是SQL）
 
 ## 阿里巴巴演进分析
 
-![image-20200614150122175](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614150122175.png)
+![image-20200614150122175](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614150122175.png)
 
 对于架构问题，没有什么是加一层解决不了的
 
@@ -188,11 +188,11 @@ NoSQL = Not Only SQL （不仅仅是SQL）
 * 数据要改造的问题（解决：统一的数据服务层 UDSL）
   * 解决问题：
 
-![image-20200614153639990](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614153639990.png)
+![image-20200614153639990](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614153639990.png)
 
-![image-20200614153918008](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614153918008.png)
+![image-20200614153918008](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614153918008.png)
 
-![image-20200614154001430](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614154001430.png)
+![image-20200614154001430](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614154001430.png)
 
 
 
@@ -294,13 +294,13 @@ NoSQL = Not Only SQL （不仅仅是SQL）
 
 2.解压到常用环境目录
 
-![image-20200614163423665](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614163423665.png)
+![image-20200614163423665](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614163423665.png)
 
 3.开启Redis（点击server）
 
 默认端口：  6379
 
-![image-20200614163716780](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614163716780.png)
+![image-20200614163716780](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614163716780.png)
 
 
 
@@ -308,11 +308,11 @@ NoSQL = Not Only SQL （不仅仅是SQL）
 
 虽然windows下使用看起来很简单，但是Redis推荐我们使用Linux去开发，这里只是简单的了解下
 
-![image-20200614164502574](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614164502574.png)
+![image-20200614164502574](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614164502574.png)
 
 
 
-![image-20200614164840126](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614164840126.png)
+![image-20200614164840126](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614164840126.png)
 
 
 
@@ -320,27 +320,27 @@ NoSQL = Not Only SQL （不仅仅是SQL）
 
 1.下载安装包
 
-![image-20200614165419048](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614165419048.png)
+![image-20200614165419048](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614165419048.png)
 
 2.上传安装包到linux
 
-![image-20200614171734796](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614171734796.png)
+![image-20200614171734796](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614171734796.png)
 
-![image-20200614171833539](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614171833539.png)
+![image-20200614171833539](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614171833539.png)
 
 
 
 3.解压Redis安装包（程序一般放在opt目录下）
 
-![image-20200614172345397](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614172345397.png)
+![image-20200614172345397](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614172345397.png)
 
-![image-20200614172416359](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614172416359.png)
+![image-20200614172416359](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614172416359.png)
 
 
 
 4.进入解压后的文件，可以看到配置文件
 
-![image-20200614172601500](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614172601500.png)
+![image-20200614172601500](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614172601500.png)
 
 
 
@@ -353,7 +353,7 @@ NoSQL = Not Only SQL （不仅仅是SQL）
 
 安装报错
 
-![image-20200614173911342](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614173911342.png)
+![image-20200614173911342](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614173911342.png)
 
 
 
@@ -387,17 +387,17 @@ gcc -v
 
 之后就可以 make 和 make install
 
-![image-20200614174458871](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614174458871.png)
+![image-20200614174458871](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614174458871.png)
 
 
 
-![image-20200614174619594](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614174619594.png)
+![image-20200614174619594](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614174619594.png)
 
 
 
 5.Redis的默认安装路径  `usr/local/bin` 目录下
 
-![image-20200614175113401](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614175113401.png)
+![image-20200614175113401](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614175113401.png)
 
 
 
@@ -410,13 +410,13 @@ mkdir myconf
 cp /opt/redis-6.0.5/redis.conf myconf
 ```
 
-![image-20200614175751118](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614175751118.png)
+![image-20200614175751118](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614175751118.png)
 
 
 
 8.Redis默认不是后台启动的，需要修改配置文件  redis.conf
 
-![image-20200614180225168](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614180225168.png)
+![image-20200614180225168](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614180225168.png)
 
 9.启动Redis服务
 
@@ -426,7 +426,7 @@ redis-server  myconf/redis.conf
 
 
 
-![image-20200614180806970](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614180806970.png)
+![image-20200614180806970](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614180806970.png)
 
 
 
@@ -438,9 +438,9 @@ redis-cli -p 6379
 
 
 
-![image-20200614181009467](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614181009467.png)
+![image-20200614181009467](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614181009467.png)
 
-![image-20200614181301229](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614181301229.png)
+![image-20200614181301229](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614181301229.png)
 
 
 
@@ -452,7 +452,7 @@ ps -ef|grep redis
 
 
 
-![image-20200614181559620](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614181559620.png)
+![image-20200614181559620](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614181559620.png)
 
 12.如何关闭Redis服务
 
@@ -462,9 +462,9 @@ shutdown
 ps -ef|grep redis
 ```
 
-![image-20200614181920228](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614181920228.png)
+![image-20200614181920228](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614181920228.png)
 
-![image-20200614182110844](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614182110844.png)
+![image-20200614182110844](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614182110844.png)
 
 可以发现客户端、服务端都关闭了
 
@@ -474,7 +474,7 @@ ps -ef|grep redis
 
 **redis-benchmark** 是一个压力测试工具（官方自带）
 
-![image-20200614182321419](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614182321419.png)
+![image-20200614182321419](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614182321419.png)
 
 
 
@@ -508,9 +508,9 @@ cd /usr/local/bin
 redis-benchmark -h localost -p 6379 -c 100 -n 100000
 ```
 
-![image-20200614183808957](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614183808957.png)
+![image-20200614183808957](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614183808957.png)
 
-![image-20200614183933655](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614183933655.png)
+![image-20200614183933655](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614183933655.png)
 
 
 
@@ -518,18 +518,18 @@ redis-benchmark -h localost -p 6379 -c 100 -n 100000
 
 * redis默认有16个数据库
 
-![image-20200614184331088](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614184331088.png)
+![image-20200614184331088](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614184331088.png)
 
 * 默认使用第0个数据库
 
   * 从第5个切换到第0个数据库，可以看到跟默认的时候的样子的一样的
     * 默认是  127.0.0.1:6379>     而不是    127.0.0.1:6379[0]> 
 
-  ![image-20200614185514951](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614185514951.png)
+  ![image-20200614185514951](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614185514951.png)
 
   * 默认数据库0 初始化的key（除了name，那么 是我们自己加入的）
 
-  ![image-20200614185942987](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614185942987.png)
+  ![image-20200614185942987](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614185942987.png)
 
 * 可以使用 select 进行切换（这里切换到数据库5）
 
@@ -542,9 +542,9 @@ redis-benchmark -h localost -p 6379 -c 100 -n 100000
     * get name 正常
     * keys *  ：查看当前所有的key 
 
-![image-20200614184838935](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614184838935.png)
+![image-20200614184838935](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614184838935.png)
 
-![image-20200614185134924](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614185134924.png)
+![image-20200614185134924](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614185134924.png)
 
 ```bash
 # 查看当前数据库所有的key
@@ -555,7 +555,7 @@ flushdb
 flushall
 ```
 
-![image-20200614185312359](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614185312359.png)
+![image-20200614185312359](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614185312359.png)
 
 #### Redis是单线程的
 
@@ -583,7 +583,7 @@ Redis是C语言写的，官方提供的数据为 10万+ 的QPS，完全不必Mem
 
 ## 五大数据类型
 
-![image-20200614203044425](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614203044425.png)
+![image-20200614203044425](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614203044425.png)
 
 Redis 是一个开源（BSD许可）的，内存中的数据结构存储系统，它可以用作==数据库==、==缓存==和==消息中间件MQ==。 它支持多种类型的数据结构，如 字符串（strings）， 散列（hashes）， 列表（lists）， 集合（sets）， 有序集合（sorted sets） 与范围查询， bitmaps， hyperloglogs 和 地理空间（geospatial） 索引半径查询。 Redis 内置了 复制（replication），LUA脚本（Lua scripting）， LRU驱动事件（LRU eviction），事务（transactions） 和不同级别的 磁盘持久化（persistence）， 并通过 Redis哨兵（Sentinel）和自动 分区（Cluster）提供高可用性（high availability）。
 
@@ -591,7 +591,7 @@ Redis 是一个开源（BSD许可）的，内存中的数据结构存储系统�
 
 ==查看命令==
 
-![image-20200614210540914](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614210540914.png)
+![image-20200614210540914](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614210540914.png)
 
 ### Redis-Key
 
@@ -611,7 +611,7 @@ redis不区分大小写命令
  type age
 ```
 
-![image-20200614204100299](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200614204100299.png)
+![image-20200614204100299](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200614204100299.png)
 
 ```bash
 127.0.0.1:6379> set name gokufriday
@@ -1968,7 +1968,7 @@ public class TestPing {
 }
 ```
 
-![image-20200615203218966](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200615203218966.png)
+![image-20200615203218966](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200615203218966.png)
 
 #### 基本
 
@@ -2417,11 +2417,11 @@ class Redis02SpringbootApplicationTests {
 
 
 
-![image-20200616010002124](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616010002124.png)
+![image-20200616010002124](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616010002124.png)
 
 
 
-![image-20200616010129832](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616010129832.png)
+![image-20200616010129832](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616010129832.png)
 
 
 
@@ -2448,9 +2448,9 @@ public class User {
 
 * 使用 jackson 的 ObjectMapper 来给对象转换为 json字符串
 
-![image-20200616121900234](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616121900234.png)
+![image-20200616121900234](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616121900234.png)
 
-![image-20200616121802553](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616121802553.png)
+![image-20200616121802553](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616121802553.png)
 
 
 
@@ -2458,7 +2458,7 @@ public class User {
 
 需要知道的是，在真实开发中，所有的实体类都会序列化
 
-![image-20200616122826713](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616122826713.png)
+![image-20200616122826713](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616122826713.png)
 
 
 
@@ -2478,23 +2478,23 @@ public class User implements Serializable {
 }
 ```
 
-![image-20200616123502443](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616123502443.png)
+![image-20200616123502443](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616123502443.png)
 
-![image-20200616123756717](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616123756717.png)
+![image-20200616123756717](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616123756717.png)
 
 ##### 编写自定义 RedisTemplate
 
 
 
-![image-20200616124212098](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616124212098.png)
+![image-20200616124212098](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616124212098.png)
 
 
 
-![image-20200616124301674](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616124301674.png)
+![image-20200616124301674](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616124301674.png)
 
 
 
-![image-20200616124133496](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616124133496.png)
+![image-20200616124133496](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616124133496.png)
 
 
 
@@ -2563,9 +2563,9 @@ class Redis02SpringbootApplicationTests {
 }
 ```
 
-![image-20200616170119145](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616170119145.png)
+![image-20200616170119145](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616170119145.png)
 
-![image-20200616170133677](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616170133677.png)
+![image-20200616170133677](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616170133677.png)
 
 
 
@@ -2575,13 +2575,13 @@ class Redis02SpringbootApplicationTests {
 
 > 1.配置文件  单位  大小写不敏感
 
-![image-20200616174624747](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616174624747.png)
+![image-20200616174624747](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616174624747.png)
 
 
 
 >  2.可以包含其他配置文件
 
-![image-20200616174743925](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616174743925.png)
+![image-20200616174743925](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616174743925.png)
 
 
 
@@ -2705,7 +2705,7 @@ Redis为此提供了持久化功能
 
 RDB保存的文件是 ==dump.rdb==
 
-![image-20200616192630971](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616192630971.png)
+![image-20200616192630971](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616192630971.png)
 
 > 触发机制
 
@@ -2728,7 +2728,7 @@ save 100 5000
 
 备份会自动生成一个dump.rdb（在生产环境，我们很有可能对这个文件进行备份）
 
-![image-20200616185131733](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616185131733.png)
+![image-20200616185131733](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616185131733.png)
 
 > 恢复rdb文件
 
@@ -2770,7 +2770,7 @@ Aof保存的文件是 ==appendonly.aof== 文件
 
 > 
 
-![image-20200616200538840](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616200538840.png)
+![image-20200616200538840](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616200538840.png)
 
 默认是不开启的，我们需要手动进行配置，只需要将 appenonly 改为 yes，这样就开启了aof
 
@@ -2794,7 +2794,7 @@ aof默认就是文件无限追加，文件会越来越大
 
 
 
-![image-20200616200751431](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616200751431.png)
+![image-20200616200751431](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616200751431.png)
 
 
 
@@ -2953,7 +2953,7 @@ Reading messages... (press Ctrl-C to quit)
 
 ## Redis主从复制
 
-![image-20200616213436610](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616213436610.png)
+![image-20200616213436610](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616213436610.png)
 
 
 
@@ -2998,7 +2998,7 @@ repl_backlog_histlen:0
 ps -ef|grep redis
 ```
 
-![image-20200616222056314](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616222056314.png)
+![image-20200616222056314](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616222056314.png)
 
 
 
@@ -3008,15 +3008,15 @@ ps -ef|grep redis
 
 可以理解为 **认老大**  ：一主（79）二从（80、81）
 
-![image-20200616222718833](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616222718833.png)
+![image-20200616222718833](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616222718833.png)
 
 
 
-![image-20200616222832802](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616222832802.png)
+![image-20200616222832802](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616222832802.png)
 
 
 
-![image-20200616222851303](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616222851303.png)
+![image-20200616222851303](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616222851303.png)
 
 
 
@@ -3084,11 +3084,11 @@ repl_backlog_histlen:238
 
 主机写
 
-![image-20200616225835416](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616225835416.png)
+![image-20200616225835416](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616225835416.png)
 
 从机只能读，不能写
 
-![image-20200616225847792](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616225847792.png)
+![image-20200616225847792](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616225847792.png)
 
 
 
@@ -3115,7 +3115,7 @@ Master 接到命令，启动后台的存盘进程，同时收集所有接收到�
 
 上一个M链接下一个 S！
 
-![image-20200616232728884](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200616232728884.png)
+![image-20200616232728884](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200616232728884.png)
 
 这时候也可以完成我们的主从复制！
 
@@ -3142,7 +3142,7 @@ Master 接到命令，启动后台的存盘进程，同时收集所有接收到�
 
 哨兵模式是一种特殊的模式，首先Redis提供了哨兵的命令，哨兵是一个独立的进程，作为进程，它会独 立运行。其原理是哨兵通过发送命令，等待Redis服务器响应，从而监控运行的多个Redis实例。
 
-![image-20200617091515144](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200617091515144.png)
+![image-20200617091515144](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200617091515144.png)
 
 
 
@@ -3153,7 +3153,7 @@ Master 接到命令，启动后台的存盘进程，同时收集所有接收到�
 
 然而一个哨兵进程对Redis服务器进行监控，可能会出现问题，为此，我们可以使用多个哨兵进行监控。 各个哨兵之间还会进行监控，这样就形成了多哨兵模式。
 
-![image-20200617091647923](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200617091647923.png)
+![image-20200617091647923](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200617091647923.png)
 
 
 
@@ -3204,19 +3204,19 @@ redis-sentinel myconf/sentinel.conf
 
 如果主（Master）节点断开了，这时就会从从机中随机选择一个主服务器
 
-![image-20200617095247471](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200617095247471.png)
+![image-20200617095247471](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200617095247471.png)
 
 
 
 哨兵日志
 
-![image-20200617095348477](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200617095348477.png)
+![image-20200617095348477](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200617095348477.png)
 
 
 
 原本的主机连接之后发现自己变成从机了
 
-![image-20200617095702068](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200617095702068.png)
+![image-20200617095702068](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200617095702068.png)
 
 
 

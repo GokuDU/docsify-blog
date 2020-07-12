@@ -6,11 +6,11 @@
 
 ## 2.JVM的结构
 
-![image-20200612204639468](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200612204639468.png)
+![image-20200612204639468](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200612204639468.png)
 
 
 
-![image-20200612212704459](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200612212704459.png)
+![image-20200612212704459](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200612212704459.png)
 
 
 
@@ -18,7 +18,7 @@
 
 作用：加载 Class文件
 
-![image-20200612190839526](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200612190839526.png)
+![image-20200612190839526](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200612190839526.png)
 
 
 
@@ -48,7 +48,7 @@ public class Car {
 }
 ```
 
-![image-20200612191711594](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200612191711594.png)
+![image-20200612191711594](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200612191711594.png)
 
 
 
@@ -74,7 +74,7 @@ public class Car {
 
 
 
-![image-20200612192133624](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200612192133624.png)
+![image-20200612192133624](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200612192133624.png)
 
 
 
@@ -116,7 +116,7 @@ public class String {
 
 
 
-![image-20200612193959922](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200612193959922.png)
+![image-20200612193959922](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200612193959922.png)
 
 
 
@@ -213,7 +213,7 @@ main()方法最先执行，最后结束
 
 对象的初始化：
 
-![image-20200612220326346](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200612220326346.png)
+![image-20200612220326346](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200612220326346.png)
 
 
 
@@ -300,15 +300,15 @@ public class Demo02 {
 
 
 
-![image-20200612230120254](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200612230120254.png)
+![image-20200612230120254](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200612230120254.png)
 
 
 
-![image-20200612225648710](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200612225648710.png)
+![image-20200612225648710](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200612225648710.png)
 
 
 
-![image-20200612230008265](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200612230008265.png)
+![image-20200612230008265](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200612230008265.png)
 
 
 
@@ -328,7 +328,7 @@ public class testJvm {
 
 
 
-![image-20200612233650934](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200612233650934.png)
+![image-20200612233650934](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200612233650934.png)
 
 
 
@@ -379,23 +379,23 @@ public class TestJvm02 {
 
 
 
-![image-20200613013755481](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200613013755481.png)
+![image-20200613013755481](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200613013755481.png)
 
 
 
 
 
-![image-20200613013232141](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200613013232141.png)
+![image-20200613013232141](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200613013232141.png)
 
-![image-20200613013343197](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200613013343197.png)
-
-
-
-![image-20200613013424916](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200613013424916.png)
+![image-20200613013343197](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200613013343197.png)
 
 
 
-![image-20200613013515399](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200613013515399.png)
+![image-20200613013424916](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200613013424916.png)
+
+
+
+![image-20200613013515399](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200613013515399.png)
 
 
 
@@ -492,4 +492,4 @@ GC题：
   - 如果一个变量没有被lock，就不能对其进行unlock操作。也不能unlock一个被其他线程锁住的变量
   - 对一个变量进行unlock操作之前，必须把此变量同步回主内存
 
-![image-20200613011638483](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200613011638483.png)
+![image-20200613011638483](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200613011638483.png)

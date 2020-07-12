@@ -234,7 +234,7 @@ CREATE TABLE `student` (
 DESC student   -- 显示表的结构
 ```
 
-![image-20200606181422911](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200606181422911.png)
+![image-20200606181422911](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200606181422911.png)
 
 ### 2.5.数据库引擎
 
@@ -353,7 +353,7 @@ CREATE TABLE IF NOT EXISTS `student`(
 
 
 
-![image-20200606192936642](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200606192936642.png)
+![image-20200606192936642](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200606192936642.png)
 
 * 删除有外键关系的表的时候，先删除引用别人的表，再删除被引用的表
 
@@ -682,7 +682,7 @@ left JOIN result AS r
 on s.`studentno` = r.`studentno`
 ```
 
-![image-20200607031509743](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200607031509743.png)
+![image-20200607031509743](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200607031509743.png)
 
 左表中的 studentname 为 gokudu 的学生在 右表 中并没有值（没有该学生对应的的 studentno），但仍然能查询出来。
 
@@ -698,7 +698,7 @@ RIGHT JOIN result AS r
 ON s.`studentno` = r.`studentno`
 ```
 
-![image-20200607032313667](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200607032313667.png)
+![image-20200607032313667](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200607032313667.png)
 
 查询不出来 gokudu ，因为右表中查询出来的  studentno 中，并没有和 gokudu 的 studentno 匹配的。
 
@@ -1088,7 +1088,7 @@ HAVING 平均数 > 80	-- 分组之后使用 having 来过滤条件
 
 ### 4.select小结
 
-![image-20200607204429763](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200607204429763.png)
+![image-20200607204429763](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200607204429763.png)
 
 
 
@@ -1273,7 +1273,7 @@ C--->B  100
 
 执行流程：
 
-<img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200607221025093.png" alt="image-20200607221025093" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200607221025093.png" alt="image-20200607221025093" style="zoom:80%;" />
 
 ```sql
 -- ============= 事务 ==============
@@ -1358,7 +1358,7 @@ EXPLAIN SELECT * FROM student;  --  非全文索引
 EXPLAIN SELECT * FROM student WHERE MATCH(studentname) AGAINST('李');
 ```
 
-![image-20200607225056611](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200607225056611.png)
+![image-20200607225056611](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200607225056611.png)
 
 ### 7.2.测试索引
 
@@ -1402,7 +1402,7 @@ SELECT mockdatatest();
 select * from `app_user` where `name` like '用户9999'
 ```
 
-![image-20200608003159920](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200608003159920.png)
+![image-20200608003159920](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200608003159920.png)
 
 * expain 
 
@@ -1410,7 +1410,7 @@ select * from `app_user` where `name` like '用户9999'
 EXPLAIN SELECT * FROM `app_user` WHERE `name` LIKE '用户9999'; 
 ```
 
-![image-20200608003422666](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200608003422666.png)
+![image-20200608003422666](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200608003422666.png)
 
 * 创建一个索引
 
@@ -1426,7 +1426,7 @@ CREATE INDEX id_app_user_name ON app_user(`name`);
 SELECT * FROM `app_user` WHERE `name` LIKE '用户9999';
 ```
 
-![image-20200608004121096](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200608004121096.png)
+![image-20200608004121096](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200608004121096.png)
 
 * expain 
 
@@ -1434,7 +1434,7 @@ SELECT * FROM `app_user` WHERE `name` LIKE '用户9999';
 EXPLAIN SELECT * FROM `app_user` WHERE `name` LIKE '用户9999'; 
 ```
 
-![image-20200608004152612](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200608004152612.png)
+![image-20200608004152612](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200608004152612.png)
 
 ==索引在数据量较小的时候，感觉不到差别==
 
@@ -1497,7 +1497,7 @@ B+Tree
 
 > SQLyog 可视化管理
 
-![image-20200608020931902](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200608020931902.png)
+![image-20200608020931902](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200608020931902.png)
 
 > 命令操作
 
@@ -1674,7 +1674,7 @@ ps:如果把上表中的班主任姓名改成班主任教工号可能更确切�
 
 驱动：显卡、声卡、数据库都需要驱动
 
-![image-20200608125023672](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200608125023672.png)
+![image-20200608125023672](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200608125023672.png)
 
 编写的程序通过 数据库 驱动，和数据库打交道
 
@@ -1686,7 +1686,7 @@ SUN公司为了简化开发人员的操作（对数据库的统一），提供�
 
 而对于开发人员，只需要掌握JDBC接口的操作
 
-![image-20200608130149447](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200608130149447.png)
+![image-20200608130149447](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200608130149447.png)
 
 需要的包：
 
@@ -2074,7 +2074,7 @@ login(" 'or '1=1"," 'or '1=1");
 
 通过SQL注入，查到全部用户登录数据
 
-![image-20200608182918876](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200608182918876.png)
+![image-20200608182918876](https://raw.githubusercontent.com/GokuDU/docsify-blog/master/images/image-20200608182918876.png)
 
 ```java
 package com.guo.jdbc02;
