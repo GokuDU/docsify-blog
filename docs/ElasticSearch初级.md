@@ -155,19 +155,19 @@ Lucene是一个全文检索引擎的架构。那什么是全文搜索引擎？
 
 
 
-<img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626195610650.png" alt="image-20200626195610650"  />
+<img src="./images/image-20200626195610650.png" alt="image-20200626195610650"  />
 
 
 
-![image-20200626195904870](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626195904870.png)
+![image-20200626195904870](./images/image-20200626195904870.png)
 
 
 
-![image-20200626195926481](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626195926481.png)
+![image-20200626195926481](./images/image-20200626195926481.png)
 
 
 
-![image-20200626195954924](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626195954924.png)
+![image-20200626195954924](./images/image-20200626195954924.png)
 
 
 
@@ -213,7 +213,7 @@ ElasticSearch  基于 java 开发 ， ==ElasticSearch==  的版本和我们之�
 
 #### 1.解压zip文件即可
 
-![image-20200626202236043](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626202236043.png)
+![image-20200626202236043](./images/image-20200626202236043.png)
 
 
 
@@ -238,7 +238,7 @@ plugins		# 插件   如：ik分词器...
 
 * 启动  elasticsearch.bat
 
-![image-20200626204549977](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626204549977.png)
+![image-20200626204549977](./images/image-20200626204549977.png)
 
 
 
@@ -267,13 +267,13 @@ set JAVA_HOME="%ES_HOME%\jdk"
 
 * 启动成功
 
-![image-20200626205613588](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626205613588.png)
+![image-20200626205613588](./images/image-20200626205613588.png)
 
 
 
 #### 4.访问 127.0.0.1:9200 测试
 
-![image-20200626205754742](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626205754742.png)
+![image-20200626205754742](./images/image-20200626205754742.png)
 
 
 
@@ -285,7 +285,7 @@ set JAVA_HOME="%ES_HOME%\jdk"
 
 https://github.com/mobz/elasticsearch-head
 
-![image-20200626210446316](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626210446316.png)
+![image-20200626210446316](./images/image-20200626210446316.png)
 
 #### 2.在es head根目录下安装依赖
 
@@ -293,13 +293,13 @@ https://github.com/mobz/elasticsearch-head
 npm install
 ```
 
-![image-20200626211526095](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626211526095.png)
+![image-20200626211526095](./images/image-20200626211526095.png)
 
-![image-20200626211555220](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626211555220.png)
+![image-20200626211555220](./images/image-20200626211555220.png)
 
 
 
-![image-20200626211702462](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626211702462.png)
+![image-20200626211702462](./images/image-20200626211702462.png)
 
 
 
@@ -309,7 +309,7 @@ npm install
 npm run start
 ```
 
-![image-20200626211842632](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626211842632.png)
+![image-20200626211842632](./images/image-20200626211842632.png)
 
 
 
@@ -317,11 +317,11 @@ npm run start
 
 * 未能连接，需要解决跨域问题
 
-![image-20200626212033183](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626212033183.png)
+![image-20200626212033183](./images/image-20200626212033183.png)
 
 * 修改 elasticSearch/config 下的配置文件  elasticSearch.yml
 
-![image-20200626212234645](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626212234645.png)
+![image-20200626212234645](./images/image-20200626212234645.png)
 
 ```yml
 http.cors.enabled: true			# 开启跨域
@@ -333,9 +333,9 @@ http.cors.allow-origin: "*"		# 允许所有端口访问
 * 重启 elasticSearch 服务器（elasticsearch.bat），访问 9100 端口
   * 初学者，可以把 es 当成一个数据库（可以建立索引【库】，文档【库中的数据】）
 
-![image-20200626213347308](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626213347308.png)
+![image-20200626213347308](./images/image-20200626213347308.png)
 
-![image-20200626213742707](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626213742707.png)
+![image-20200626213742707](./images/image-20200626213742707.png)
 
 #### 5.注意点
 
@@ -352,7 +352,7 @@ ELK是Elasticsearch、Logstash、Kibana三大开源框架首字母大写简称�
 
 市面上很多开发只要提到ELK能够一致说出它是一个日志分析架构技术栈总称，但实际上ELK不仅仅适用于日志分析，它还可以支持其它任何数据分析和收集的场景，日志分析和收集只是更具有代表性。并非唯一性
 
-![image-20200626215250896](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626215250896.png)
+![image-20200626215250896](./images/image-20200626215250896.png)
 
 
 
@@ -366,7 +366,7 @@ Kibana是一个针对Elasticsearch的开源分析及可视化平台，用来搜�
 
 下载Kibana https://www.elastic.co/cn/downloads/kibana （注意版本要和 es 版本一致）
 
-![image-20200626215520022](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626215520022.png)
+![image-20200626215520022](./images/image-20200626215520022.png)
 
 
 
@@ -380,7 +380,7 @@ Kibana是一个针对Elasticsearch的开源分析及可视化平台，用来搜�
 
 * 解压后的目录
 
-![image-20200626221703932](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626221703932.png)
+![image-20200626221703932](./images/image-20200626221703932.png)
 
 
 
@@ -388,9 +388,9 @@ Kibana是一个针对Elasticsearch的开源分析及可视化平台，用来搜�
 
 * 启动 Kibana.bat
 
-![image-20200626221924390](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626221924390.png)
+![image-20200626221924390](./images/image-20200626221924390.png)
 
-![image-20200626222005071](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626222005071.png)
+![image-20200626222005071](./images/image-20200626222005071.png)
 
 
 
@@ -398,7 +398,7 @@ Kibana是一个针对Elasticsearch的开源分析及可视化平台，用来搜�
 
 
 
-![image-20200626222157911](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626222157911.png)
+![image-20200626222157911](./images/image-20200626222157911.png)
 
 
 
@@ -406,7 +406,7 @@ Kibana是一个针对Elasticsearch的开源分析及可视化平台，用来搜�
 
 * 之后的所有操作都在这里编写
 
-![image-20200626222500393](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626222500393.png)
+![image-20200626222500393](./images/image-20200626222500393.png)
 
 
 
@@ -414,7 +414,7 @@ Kibana是一个针对Elasticsearch的开源分析及可视化平台，用来搜�
 
 * 中文国际化配置文件 zh-CN.json
 
-![image-20200626222749631](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626222749631.png)
+![image-20200626222749631](./images/image-20200626222749631.png)
 
 
 
@@ -425,11 +425,11 @@ Kibana是一个针对Elasticsearch的开源分析及可视化平台，用来搜�
 i18n.locale: "zh-CN"
 ```
 
-![image-20200626222916803](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626222916803.png)
+![image-20200626222916803](./images/image-20200626222916803.png)
 
 * 重启 Kibana 项目
 
-![image-20200626223309740](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626223309740.png)
+![image-20200626223309740](./images/image-20200626223309740.png)
 
 
 
@@ -466,7 +466,7 @@ elasticsearch 在后台把**每个索引划分成多个分片**，每分分片�
 
 一个服务就是一个集群！默认的集群名称是 elasticsearch
 
-![image-20200626225240309](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626225240309.png)
+![image-20200626225240309](./images/image-20200626225240309.png)
 
 
 
@@ -518,9 +518,9 @@ elasticsearch是面向文档的，那么就意味着索引和搜索数据的最�
 
 一个集群至少有一个节点，而一个节点就是一个elasricsearch进程，节点可以有多个索引默认的，如果你创建索引，那么索引将会有个5个分片 ( primary shard ,又称主分片 ) 构成的，每一个主分片会有一个副本 ( replica shard ,又称复制分片 )
 
-![image-20200626231922464](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626231922464.png)
+![image-20200626231922464](./images/image-20200626231922464.png)
 
-![image-20200626231659021](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626231659021.png)
+![image-20200626231659021](./images/image-20200626231659021.png)
 
 上图是一个有3个节点的集群，可以看到主分片和对应的复制分片都不会在同一个节点内，这样有利于某个节点挂掉 了，数据也不至于丢失。 实际上，一个分片是一个Lucene索引，一个包含==倒排索引==的文件目录，倒排索引的结构使 得elasticsearch在不扫描全部文档的情况下，就能告诉你哪些文档包含特定的关键字
 
@@ -572,7 +572,7 @@ To forever, study every day, good good up # 文档2包含的内容
 
 
 
-![image-20200626233418220](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200626233418220.png)
+![image-20200626233418220](./images/image-20200626233418220.png)
 
 
 
@@ -621,7 +621,7 @@ https://github.com/medcl/elasticsearch-analysis-ik/releases/tag/v7.6.1
 
 点击进入到ES目录下的 plugins 中，新建 ik 目录 ，将下载的文件放入到 ik 目录中
 
-![image-20200627002059243](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627002059243.png)
+![image-20200627002059243](./images/image-20200627002059243.png)
 
 
 
@@ -629,7 +629,7 @@ https://github.com/medcl/elasticsearch-analysis-ik/releases/tag/v7.6.1
 
 可以看到 ik 分词器被加载了
 
-![image-20200627002808290](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627002808290.png)
+![image-20200627002808290](./images/image-20200627002808290.png)
 
 
 
@@ -637,7 +637,7 @@ https://github.com/medcl/elasticsearch-analysis-ik/releases/tag/v7.6.1
 
 可以通过命令 elasticsearch-plugin list 来查看插件，首先需要进入bin目录
 
-![image-20200627003019735](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627003019735.png)
+![image-20200627003019735](./images/image-20200627003019735.png)
 
 
 
@@ -645,13 +645,13 @@ https://github.com/medcl/elasticsearch-analysis-ik/releases/tag/v7.6.1
 
 * ik_smart 【最小切分】
 
-![image-20200627004454875](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627004454875.png)
+![image-20200627004454875](./images/image-20200627004454875.png)
 
 
 
 * ik_max_word 【最细粒度划分，穷尽词库的可能】
 
-![image-20200627004556023](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627004556023.png)
+![image-20200627004556023](./images/image-20200627004556023.png)
 
 
 
@@ -660,7 +660,7 @@ https://github.com/medcl/elasticsearch-analysis-ik/releases/tag/v7.6.1
 * 输入“我认识伯格曼” ，发现"伯格曼"被拆分了
   * 这个时候需要自己将这个词加入到我们的分词器的字典中
 
-![image-20200627005106440](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627005106440.png)
+![image-20200627005106440](./images/image-20200627005106440.png)
 
 
 
@@ -669,7 +669,7 @@ https://github.com/medcl/elasticsearch-analysis-ik/releases/tag/v7.6.1
   * 进入elasticsearch-7.6.1/plugins/ik/config目录
   * 新建一个myword.dic文件，编辑内容
 
-  ![image-20200627005531946](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627005531946.png)
+  ![image-20200627005531946](./images/image-20200627005531946.png)
 
   
 
@@ -696,7 +696,7 @@ https://github.com/medcl/elasticsearch-analysis-ik/releases/tag/v7.6.1
 * 修改完配置重新启动elasticsearch，再次测试
   * 可以识别了
 
-![image-20200627010201592](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627010201592.png)
+![image-20200627010201592](./images/image-20200627010201592.png)
 
 
 
@@ -737,7 +737,7 @@ PUT /索引名称/类型名称/文档id
 {请求体}
 ```
 
-![image-20200627023358288](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627023358288.png)
+![image-20200627023358288](./images/image-20200627023358288.png)
 
 
 
@@ -745,7 +745,7 @@ PUT /索引名称/类型名称/文档id
 
 
 
-![image-20200627023527132](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627023527132.png)
+![image-20200627023527132](./images/image-20200627023527132.png)
 
 
 
@@ -786,13 +786,13 @@ PUT /索引名称/类型名称/文档id
 
 #### 3.指定字段类型
 
-![image-20200627025004222](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627025004222.png)
+![image-20200627025004222](./images/image-20200627025004222.png)
 
 
 
 #### 4.查看索引默认信息
 
-![image-20200627025114456](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627025114456.png)
+![image-20200627025114456](./images/image-20200627025114456.png)
 
 
 
@@ -800,9 +800,9 @@ PUT /索引名称/类型名称/文档id
 
 没有给字段指定类型，那么es就会默认给我配置字段类型
 
-![image-20200627030121766](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627030121766.png)
+![image-20200627030121766](./images/image-20200627030121766.png)
 
-![image-20200627030224794](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627030224794.png)
+![image-20200627030224794](./images/image-20200627030224794.png)
 
 
 
@@ -812,7 +812,7 @@ PUT /索引名称/类型名称/文档id
 GET /_cat/indices?v
 ```
 
-![image-20200627031108609](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627031108609.png)
+![image-20200627031108609](./images/image-20200627031108609.png)
 
 
 
@@ -824,20 +824,20 @@ GET /_cat/indices?v
 
 这种方式如果修改的时候漏了字段，数据会丢失
 
-![image-20200627031502573](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627031502573.png)
+![image-20200627031502573](./images/image-20200627031502573.png)
 
 * 现在的方式
   * 查看索引信息
 
-![image-20200627031928663](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627031928663.png)
+![image-20200627031928663](./images/image-20200627031928663.png)
 
-![image-20200627032015927](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627032015927.png)
+![image-20200627032015927](./images/image-20200627032015927.png)
 
 
 
 #### 8.删除索引
 
-![image-20200627032547067](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627032547067.png)
+![image-20200627032547067](./images/image-20200627032547067.png)
 
 
 
@@ -845,9 +845,9 @@ GET /_cat/indices?v
 
 ### 1.添加数据 PUT
 
-![image-20200627033537072](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627033537072.png)
+![image-20200627033537072](./images/image-20200627033537072.png)
 
-![image-20200627033615797](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627033615797.png)
+![image-20200627033615797](./images/image-20200627033615797.png)
 
 
 
@@ -855,25 +855,25 @@ GET /_cat/indices?v
 
 * 再创建两个用户
 
-![image-20200627034032566](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627034032566.png)
+![image-20200627034032566](./images/image-20200627034032566.png)
 
 ### 2.查询数据 GET
 
-![image-20200627034147085](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627034147085.png)
+![image-20200627034147085](./images/image-20200627034147085.png)
 
 
 
 ### 3.更新数据 PUT
 
-![image-20200627034539422](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627034539422.png)
+![image-20200627034539422](./images/image-20200627034539422.png)
 
 
 
 ### 4.更新数据 POST  _update【推荐使用这种更新方式】
 
-![image-20200627035309689](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627035309689.png)
+![image-20200627035309689](./images/image-20200627035309689.png)
 
-![image-20200627035108506](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627035108506.png)
+![image-20200627035108506](./images/image-20200627035108506.png)
 
 
 
@@ -895,7 +895,7 @@ GET /gokufriday/user/_search?q=name:张三
 
 
 
-![image-20200627035935673](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627035935673.png)
+![image-20200627035935673](./images/image-20200627035935673.png)
 
 
 
@@ -903,7 +903,7 @@ GET /gokufriday/user/_search?q=name:张三
 
 #### 1.构建查询【匹配查询】
 
-![image-20200627043010659](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627043010659.png)
+![image-20200627043010659](./images/image-20200627043010659.png)
 
 
 
@@ -911,19 +911,19 @@ GET /gokufriday/user/_search?q=name:张三
 
 我们仅是需要查看 name 和 age
 
-![image-20200627043202428](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627043202428.png)
+![image-20200627043202428](./images/image-20200627043202428.png)
 
 
 
 #### 3.排序
 
-![image-20200627043730449](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627043730449.png)
+![image-20200627043730449](./images/image-20200627043730449.png)
 
 
 
 #### 4.分页查询
 
-![image-20200627044022090](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627044022090.png)
+![image-20200627044022090](./images/image-20200627044022090.png)
 
 
 
@@ -933,7 +933,7 @@ GET /gokufriday/user/_search?q=name:张三
 
 **must命令（and），所有条件都要符合**  相当于 where name = xx and age = 3
 
-![image-20200627044429147](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627044429147.png)
+![image-20200627044429147](./images/image-20200627044429147.png)
 
 
 
@@ -943,7 +943,7 @@ GET /gokufriday/user/_search?q=name:张三
 
 **should（or），只要有条件符合即可  相当于 where name = xx orage = 3**
 
-![image-20200627044829162](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627044829162.png)
+![image-20200627044829162](./images/image-20200627044829162.png)
 
 
 
@@ -951,7 +951,7 @@ GET /gokufriday/user/_search?q=name:张三
 
 
 
-![image-20200627045042664](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627045042664.png)
+![image-20200627045042664](./images/image-20200627045042664.png)
 
 
 
@@ -964,17 +964,17 @@ GET /gokufriday/user/_search?q=name:张三
 
 
 
-![image-20200627045516693](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627045516693.png)
+![image-20200627045516693](./images/image-20200627045516693.png)
 
-![image-20200627045632169](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627045632169.png)
+![image-20200627045632169](./images/image-20200627045632169.png)
 
-![image-20200627045932200](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627045932200.png)
+![image-20200627045932200](./images/image-20200627045932200.png)
 
 
 
 #### 6.匹配多个条件查询
 
-![image-20200627132118261](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627132118261.png)
+![image-20200627132118261](./images/image-20200627132118261.png)
 
 
 
@@ -996,13 +996,13 @@ GET /gokufriday/user/_search?q=name:张三
 
 ##### 1.创建索引 testdb
 
-![image-20200627135714463](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627135714463.png)
+![image-20200627135714463](./images/image-20200627135714463.png)
 
 
 
 ##### 2.存放两条数据
 
-![image-20200627135652042](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627135652042.png)
+![image-20200627135652042](./images/image-20200627135652042.png)
 
 
 
@@ -1012,13 +1012,13 @@ GET /gokufriday/user/_search?q=name:张三
 
 * "analyzer": "keyword"
 
-![image-20200627135838145](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627135838145.png)
+![image-20200627135838145](./images/image-20200627135838145.png)
 
 
 
 * "analyzer": "standard"
 
-![image-20200627135958676](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627135958676.png)
+![image-20200627135958676](./images/image-20200627135958676.png)
 
 
 
@@ -1026,19 +1026,19 @@ GET /gokufriday/user/_search?q=name:张三
 
 * "name" 是 text类型
 
-![image-20200627140857444](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627140857444.png)
+![image-20200627140857444](./images/image-20200627140857444.png)
 
 
 
 * "desc" 是 keyword类型
 
-![image-20200627141047256](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627141047256.png)
+![image-20200627141047256](./images/image-20200627141047256.png)
 
 
 
 #### 8.多个值精确匹配
 
-![image-20200627144026289](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627144026289.png)
+![image-20200627144026289](./images/image-20200627144026289.png)
 
 
 
@@ -1046,13 +1046,13 @@ GET /gokufriday/user/_search?q=name:张三
 
 * 默认的高亮查询
 
-![image-20200627145124140](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627145124140.png)
+![image-20200627145124140](./images/image-20200627145124140.png)
 
 
 
 * 自定义格式高亮查询
 
-![image-20200627145505670](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627145505670.png)
+![image-20200627145505670](./images/image-20200627145505670.png)
 
 
 
@@ -1064,11 +1064,11 @@ https://www.elastic.co/guide/index.html
 
 
 
-![image-20200627150025326](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627150025326.png)
+![image-20200627150025326](./images/image-20200627150025326.png)
 
-![image-20200627150153954](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627150153954.png)
+![image-20200627150153954](./images/image-20200627150153954.png)
 
-![image-20200627150350004](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627150350004.png)
+![image-20200627150350004](./images/image-20200627150350004.png)
 
 ### 8.2.步骤【分析文档】
 
@@ -1086,7 +1086,7 @@ https://www.elastic.co/guide/index.html
 
 #### 2.构建对象
 
-![image-20200627150813160](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627150813160.png)
+![image-20200627150813160](./images/image-20200627150813160.png)
 
 
 
@@ -1102,25 +1102,25 @@ https://www.elastic.co/guide/index.html
 
 
 
-![image-20200627151716272](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627151716272.png)
+![image-20200627151716272](./images/image-20200627151716272.png)
 
 
 
 * 配置jdk环境
 
-![image-20200627151934304](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627151934304.png)
+![image-20200627151934304](./images/image-20200627151934304.png)
 
-![image-20200627152003881](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627152003881.png)
+![image-20200627152003881](./images/image-20200627152003881.png)
 
 
 
-![image-20200627152132464](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627152132464.png)
+![image-20200627152132464](./images/image-20200627152132464.png)
 
 
 
 * JavaScript版本
 
-![image-20200627152235226](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627152235226.png)
+![image-20200627152235226](./images/image-20200627152235226.png)
 
 
 
@@ -1128,19 +1128,19 @@ https://www.elastic.co/guide/index.html
 
 ==**问题： 一定要保证 我们导入的依赖和我们本地的es 版本一致**==
 
-![image-20200627153038083](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627153038083.png)
+![image-20200627153038083](./images/image-20200627153038083.png)
 
 
 
 * 修改依赖
 
-![image-20200627153449112](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627153449112.png)
+![image-20200627153449112](./images/image-20200627153449112.png)
 
 
 
 ##### 3.源码中提供的对象
 
-![image-20200627160253150](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627160253150.png)
+![image-20200627160253150](./images/image-20200627160253150.png)
 
 
 
@@ -1294,19 +1294,19 @@ public class ElasticSearchClientConfig {
 
 * @Autowried正确使用
 
-![image-20200627171724291](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627171724291.png)
+![image-20200627171724291](./images/image-20200627171724291.png)
 
 
 
 * @Autowried错误使用
 
-![image-20200627171859288](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627171859288.png)
+![image-20200627171859288](./images/image-20200627171859288.png)
 
 
 
 * 使用  @Qualifier
 
-![image-20200627171948315](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627171948315.png)
+![image-20200627171948315](./images/image-20200627171948315.png)
 
 
 
@@ -1417,9 +1417,9 @@ void testAddDocument() throws IOException {
 
 
 
-![image-20200627181227989](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627181227989.png)
+![image-20200627181227989](./images/image-20200627181227989.png)
 
-![image-20200627181149134](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627181149134.png)
+![image-20200627181149134](./images/image-20200627181149134.png)
 
 
 
@@ -1479,7 +1479,7 @@ void testUpdateDocument() throws IOException {
 }
 ```
 
-![image-20200627183822943](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627183822943.png)
+![image-20200627183822943](./images/image-20200627183822943.png)
 
 
 
@@ -1498,9 +1498,9 @@ void testDeleteDocument() throws IOException {
 }
 ```
 
-![image-20200627191944792](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627191944792.png)
+![image-20200627191944792](./images/image-20200627191944792.png)
 
-![image-20200627192003524](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627192003524.png)
+![image-20200627192003524](./images/image-20200627192003524.png)
 
 
 
@@ -1538,9 +1538,9 @@ void testBulkRequest() throws IOException {
 
 * 返回 false   没有失败
 
-![image-20200627195029312](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627195029312.png)
+![image-20200627195029312](./images/image-20200627195029312.png)
 
-![image-20200627195109437](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627195109437.png)
+![image-20200627195109437](./images/image-20200627195109437.png)
 
 
 
@@ -1578,7 +1578,7 @@ void testBulkRequest() throws IOException {
     }
 ```
 
-![image-20200627195515517](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627195515517.png)
+![image-20200627195515517](./images/image-20200627195515517.png)
 
 
 
@@ -1621,7 +1621,7 @@ void testBulkRequest() throws IOException {
     }
 ```
 
-![image-20200627202721040](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627202721040.png)
+![image-20200627202721040](./images/image-20200627202721040.png)
 
 
 
@@ -1629,7 +1629,7 @@ void testBulkRequest() throws IOException {
 
 ### 9.1.创建项目 es-jingdon
 
-![image-20200627203426106](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627203426106.png)
+![image-20200627203426106](./images/image-20200627203426106.png)
 
 
 
@@ -1730,7 +1730,7 @@ spring.thymeleaf.cache=false
 
 #### 3.导入静态资源
 
-![image-20200627221929806](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200627221929806.png)
+![image-20200627221929806](./images/image-20200627221929806.png)
 
 
 
@@ -1836,7 +1836,7 @@ public class HtmlParseUtil {
 }
 ```
 
-![image-20200628183241899](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200628183241899.png)
+![image-20200628183241899](./images/image-20200628183241899.png)
 
 
 
@@ -1894,9 +1894,9 @@ public class ContentController {
 
 #### 7.访问  localhost:9099/parse/java 测试
 
-![image-20200628201142194](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200628201142194.png)
+![image-20200628201142194](./images/image-20200628201142194.png)
 
-![image-20200628201221839](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200628201221839.png)
+![image-20200628201221839](./images/image-20200628201221839.png)
 
 
 
@@ -1961,9 +1961,9 @@ public List<Map<String,Object>> search(@PathVariable("keyword") String keyword,
 
 #### 3.导入vue，axios
 
-![image-20200628211706220](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200628211706220.png)
+![image-20200628211706220](./images/image-20200628211706220.png)
 
-![image-20200628211752197](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200628211752197.png)
+![image-20200628211752197](./images/image-20200628211752197.png)
 
 
 
@@ -2005,11 +2005,11 @@ public List<Map<String,Object>> search(@PathVariable("keyword") String keyword,
 
 
 
-![image-20200628212954991](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200628212954991.png)
+![image-20200628212954991](./images/image-20200628212954991.png)
 
 
 
-![image-20200628213431351](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200628213431351.png)
+![image-20200628213431351](./images/image-20200628213431351.png)
 
 
 
@@ -2035,7 +2035,7 @@ new Vue({
 })
 ```
 
-![image-20200628213821281](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200628213821281.png)
+![image-20200628213821281](./images/image-20200628213821281.png)
 
 
 
@@ -2072,11 +2072,11 @@ response.data 从响应中拿到数据，赋给results
 
 
 
-![image-20200628215052136](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200628215052136.png)
+![image-20200628215052136](./images/image-20200628215052136.png)
 
 
 
-![image-20200628215138270](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200628215138270.png)
+![image-20200628215138270](./images/image-20200628215138270.png)
 
 
 
@@ -2188,4 +2188,4 @@ public List<Map<String,Object>> searchPageHighLight (String keywords,int pageNo,
 
 * 解析
 
-![image-20200628224144401](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200628224144401.png)
+![image-20200628224144401](./images/image-20200628224144401.png)

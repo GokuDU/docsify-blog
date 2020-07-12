@@ -8,13 +8,13 @@
 
 - java.util.concurrent 工具包
 
-![image-20200629031611229](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200629031611229.png)
+![image-20200629031611229](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200629031611229.png)
 
 
 
 * **runnable** ：没有返回值，效率相比 Callable 相对较低
 
-![image-20200629032124309](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200629032124309.png)
+![image-20200629032124309](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200629032124309.png)
 
 
 
@@ -195,7 +195,7 @@ sleep ==》Thread
 
 sleep是Thread的静态类方法，谁调用的谁去睡觉，即使在a线程里调用了b的sleep方法，实际上还是a去睡觉，要让b线程睡觉要在b的代码中调用sleep
 
-![image-20200629040937439](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200629040937439.png)
+![image-20200629040937439](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200629040937439.png)
 
 
 
@@ -290,9 +290,9 @@ class Ticket {
 
 #### 介绍
 
-![image-20200629121752771](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200629121752771.png)
+![image-20200629121752771](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200629121752771.png)
 
-![image-20200629121546103](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200629121546103.png)
+![image-20200629121546103](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200629121546103.png)
 
 
 
@@ -301,7 +301,7 @@ class Ticket {
 * 公平锁 ： 很公平，可以先来后到
 * **非公平锁： 很不公平，可以插队 （默认）**
 
-![image-20200629122409657](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200629122409657.png)
+![image-20200629122409657](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200629122409657.png)
 
 
 
@@ -395,7 +395,7 @@ class Ticket2 {
 
 
 
-![image-20200629141207500](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200629141207500.png)
+![image-20200629141207500](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200629141207500.png)
 
 
 
@@ -483,22 +483,22 @@ class Data {
 
 * 假如现在有 A、B、C、D 四个线程 ，使用 if 判断回出现 **虚假唤醒** 
 
-![image-20200629153118241](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200629153118241.png)
+![image-20200629153118241](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200629153118241.png)
 
 
 
 * 需要把 if  改为  while 判断
   * 查看官方文档
 
-![image-20200629152437992](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200629152437992.png)
+![image-20200629152437992](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200629152437992.png)
 
 
 
 #### 3.使用 while 判断
 
-![image-20200629153305352](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200629153305352.png)
+![image-20200629153305352](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200629153305352.png)
 
-![image-20200629153333214](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200629153333214.png)
+![image-20200629153333214](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200629153333214.png)
 
 
 
@@ -510,25 +510,25 @@ class Data {
 
 *  Lock 的 Condition 方法
 
-![image-20200629160430022](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200629160430022.png)
+![image-20200629160430022](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200629160430022.png)
 
 
 
 * 关于Condition 的使用
 
-![image-20200629155416989](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200629155416989.png)
+![image-20200629155416989](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200629155416989.png)
 
-![image-20200629155552720](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200629155552720.png)
+![image-20200629155552720](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200629155552720.png)
 
-![image-20200629155140484](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200629155140484.png)
+![image-20200629155140484](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200629155140484.png)
 
-![image-20200629155631697](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200629155631697.png)
+![image-20200629155631697](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200629155631697.png)
 
 
 
 #### 2.对比 synchronize
 
-![image-20200629155724407](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200629155724407.png)
+![image-20200629155724407](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200629155724407.png)
 
 #### 3.TestWithJUC 代码
 
@@ -652,7 +652,7 @@ class Data2 {
 * 测试发现执行 TestWithJUC  的输出是随机的，我们想让他有序执行。Condition可以帮我们做到
   * 接下来会测试 Condition实现精准通知、唤醒
 
-![image-20200629162021459](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200629162021459.png)
+![image-20200629162021459](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200629162021459.png)
 
 
 
@@ -770,7 +770,7 @@ class Data3 {
 }
 ```
 
-![image-20200629165942149](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200629165942149.png)
+![image-20200629165942149](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200629165942149.png)
 
 
 
@@ -1207,9 +1207,9 @@ public class SetTest {
    private static final Object PRESENT = new Object();
 ```
 
-![image-20200629202829461](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200629202829461.png)
+![image-20200629202829461](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200629202829461.png)
 
-![image-20200629203058679](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200629203058679.png)
+![image-20200629203058679](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200629203058679.png)
 
 
 
@@ -1219,7 +1219,7 @@ public class SetTest {
 
 默认等价于什么  new HashMap<>(16,0.75)
 
-![image-20200629204827056](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200629204827056.png)
+![image-20200629204827056](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200629204827056.png)
 
 
 
@@ -1263,7 +1263,7 @@ public class MapTest {
 
 3.Callable 的方法不同 call( )   ==> 相当于Runnable中的 run( ) 
 
-![image-20200629213854593](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200629213854593.png)
+![image-20200629213854593](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200629213854593.png)
 
 
 
@@ -1271,13 +1271,13 @@ public class MapTest {
 
 * **FutureTask实现Runnable**
 
-![image-20200630004815794](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630004815794.png)
+![image-20200630004815794](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630004815794.png)
 
 
 
 * **FutureTask 调用 Callable**
 
-![image-20200630005228419](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630005228419.png)
+![image-20200630005228419](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630005228419.png)
 
 
 
@@ -1322,7 +1322,7 @@ class MyThread implements Callable {
 }
 ```
 
-![image-20200630011022338](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630011022338.png)
+![image-20200630011022338](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630011022338.png)
 
 
 
@@ -1330,9 +1330,9 @@ class MyThread implements Callable {
 
 * **Callable返回结果会被缓存**
 
-![image-20200630011257703](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630011257703.png)
+![image-20200630011257703](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630011257703.png)
 
-![image-20200630011305667](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630011305667.png)
+![image-20200630011305667](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630011305667.png)
 
 
 
@@ -1342,7 +1342,7 @@ class MyThread implements Callable {
 
 - 减法计数器
 
-![image-20200630011734390](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630011734390.png)
+![image-20200630011734390](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630011734390.png)
 
 
 
@@ -1378,7 +1378,7 @@ public class CountDownLatchDemo {
 
 - 加法计数器
 
-![image-20200630025439331](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630025439331.png)
+![image-20200630025439331](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630025439331.png)
 
 
 
@@ -1437,7 +1437,7 @@ public class CyclicBarrierDemo {
   - 多个共享资源互斥的使用
   - 并发限流，控制最大的线程数
 
-![image-20200630031907352](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630031907352.png)
+![image-20200630031907352](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630031907352.png)
 
 
 
@@ -1475,7 +1475,7 @@ public class SemaphoreDemo {
 }
 ```
 
-![image-20200630033329581](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630033329581.png)
+![image-20200630033329581](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630033329581.png)
 
 
 
@@ -1498,7 +1498,7 @@ public class SemaphoreDemo {
 
 
 
-![image-20200630034546100](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630034546100.png)
+![image-20200630034546100](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630034546100.png)
 
 
 
@@ -1610,11 +1610,11 @@ class MyCache {
 
 ## 10.阻塞队列
 
-![image-20200630172446948](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630172446948.png)
+![image-20200630172446948](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630172446948.png)
 
-![image-20200630174557313](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630174557313.png)
+![image-20200630174557313](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630174557313.png)
 
-![image-20200630175405256](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630175405256.png)
+![image-20200630175405256](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630175405256.png)
 
 
 
@@ -1624,7 +1624,7 @@ class MyCache {
 
 阻塞队列是一个队列，在数据结构中起的作用如下图
 
-![image-20200630175629520](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630175629520.png)
+![image-20200630175629520](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630175629520.png)
 
 * 当队列是空的，从队列中==获取==元素的操作将会被阻塞
 * 当队列是满的，从队列中==添加==元素的操作将会被阻塞
@@ -1647,7 +1647,7 @@ class MyCache {
 
 ### 10.3.接口架构图
 
-![image-20200630180019995](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630180019995.png)
+![image-20200630180019995](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630180019995.png)
 
 
 
@@ -1717,7 +1717,7 @@ public class BlockingQueneTest {
 }
 ```
 
-![image-20200630182930414](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630182930414.png)
+![image-20200630182930414](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630182930414.png)
 
 
 
@@ -1745,7 +1745,7 @@ public static void test02() {
 }
 ```
 
-![image-20200630184251212](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630184251212.png)
+![image-20200630184251212](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630184251212.png)
 
 
 
@@ -1855,7 +1855,7 @@ public class SynchronousQueueTest {
 }
 ```
 
-![image-20200630195220095](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630195220095.png)
+![image-20200630195220095](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630195220095.png)
 
 
 
@@ -1915,7 +1915,7 @@ public class SynchronousQueueTest {
 
 Java中的线程池是通过 Executor 框架实现的，该框架中用到了 Executor ，Executors，ExecutorService，ThreadPoolExecutor 这几个类
 
-![image-20200630202540635](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630202540635.png)
+![image-20200630202540635](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630202540635.png)
 
 
 
@@ -1959,23 +1959,23 @@ public class ExecutorsMethod {
 
 * Executors.newSingleThreadExecutor()
 
-![image-20200630221553993](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630221553993.png)
+![image-20200630221553993](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630221553993.png)
 
 * Executors.newFixedThreadPool(5)
 
-![image-20200630221630656](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630221630656.png)
+![image-20200630221630656](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630221630656.png)
 
 
 
 * Executors.newCachedThreadPool()
 
-![image-20200630221441501](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630221441501.png)
+![image-20200630221441501](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630221441501.png)
 
 
 
 ### 11.3.七大参数
 
-![image-20200630222947149](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630222947149.png)
+![image-20200630222947149](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630222947149.png)
 
 ```java
 // 	Executors 三个创建线程池的方法
@@ -2027,7 +2027,7 @@ public ThreadPoolExecutor(int corePoolSize,		// 核心线程池大小
 
 ### 11.4.四种拒绝策略
 
-![image-20200630224112604](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630224112604.png)
+![image-20200630224112604](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630224112604.png)
 
 
 
@@ -2037,25 +2037,25 @@ public ThreadPoolExecutor(int corePoolSize,		// 核心线程池大小
 
  *   new ThreadPoolExecutor.AbortPolicy()           最大承载满了，还有线程进来，不处理这个线程直接抛出异常
 
-![image-20200630231252255](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630231252255.png)
+![image-20200630231252255](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630231252255.png)
 
 
 
  *   new ThreadPoolExecutor.CallerRunsPolicy()      队列满了，哪来的去哪里   这里是线程进不来 当前线程就是 main 线程
 
-![image-20200630230325060](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630230325060.png)
+![image-20200630230325060](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630230325060.png)
 
 
 
  *   new ThreadPoolExecutor.DiscardPolicy()         队列满了,丢掉任务，不会抛出异常
 
-![image-20200630230804240](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630230804240.png)
+![image-20200630230804240](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630230804240.png)
 
 
 
  *   new ThreadPoolExecutor.DiscardOldestPolicy()   队列满了,尝试和最早的线程竞争，不会抛出异常
 
-![image-20200630231104343](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200630231104343.png)
+![image-20200630231104343](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200630231104343.png)
 
 
 
@@ -2193,13 +2193,13 @@ public interface Runnable {
 }
 ```
 
-![image-20200701003800805](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701003800805.png)
+![image-20200701003800805](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701003800805.png)
 
 
 
 ### 12.2.Function 函数式接口
 
-![image-20200701005114909](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701005114909.png)
+![image-20200701005114909](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701005114909.png)
 
 ```java
 package com.guo.functional_interface;
@@ -2239,7 +2239,7 @@ public class FunctionTest {
 
 ### 12.3.Predicate  断定式接口
 
-![image-20200701010631789](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701010631789.png)
+![image-20200701010631789](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701010631789.png)
 
 ```java
 package com.guo.functional_interface;
@@ -2270,7 +2270,7 @@ public class PredicateTest {
 
 ### 12.4.Consumer 消费式接口
 
-![image-20200701021132686](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701021132686.png)
+![image-20200701021132686](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701021132686.png)
 
 ```java
 package com.guo.functional_interface;
@@ -2303,7 +2303,7 @@ public class ConsumerTest {
 
 ### 12.5.Supplier 供给式接口
 
-![image-20200701022111710](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701022111710.png)
+![image-20200701022111710](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701022111710.png)
 
 ```java
 package com.guo.functional_interface;
@@ -2358,15 +2358,15 @@ public class SupplierTest {
 
 
 
-![image-20200701022606753](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701022606753.png)
+![image-20200701022606753](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701022606753.png)
 
-![image-20200701040327013](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701040327013.png)
+![image-20200701040327013](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701040327013.png)
 
-​							![image-20200701035951728](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701035951728.png)
+​							![image-20200701035951728](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701035951728.png)
 
-![image-20200701040412210](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701040412210.png)
+![image-20200701040412210](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701040412210.png)
 
-![image-20200701041927273](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701041927273.png)
+![image-20200701041927273](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701041927273.png)
 
 
 
@@ -2449,7 +2449,7 @@ public class StreamTest {
 * 任务切分
 * 结果合并
 
-![image-20200701043412138](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701043412138.png)
+![image-20200701043412138](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701043412138.png)
 
 
 
@@ -2459,7 +2459,7 @@ public class StreamTest {
 
 工作窃取（work-stealing）算法是指**某个线程从其他队列里窃取任务来执行**(能者多劳)。工作窃取的运行流程图如下：
 
-![image-20200701043755809](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701043755809.png)
+![image-20200701043755809](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701043755809.png)
 
 
 
@@ -2618,15 +2618,15 @@ public class Test {
 
 
 
-![image-20200701141801226](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701141801226.png)
+![image-20200701141801226](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701141801226.png)
 
-![image-20200701141806987](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701141806987.png)
-
-
+![image-20200701141806987](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701141806987.png)
 
 
 
-![image-20200701153507750](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701153507750.png)
+
+
+![image-20200701153507750](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701153507750.png)
 
 
 
@@ -2669,13 +2669,13 @@ public class FutureTest {
 }
 ```
 
-![image-20200701154324268](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701154324268.png)
+![image-20200701154324268](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701154324268.png)
 
 
 
 #### 有返回值的 runAsync 异步回调
 
-![image-20200701155130247](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701155130247.png)
+![image-20200701155130247](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701155130247.png)
 
 ##### 成功回调
 
@@ -2717,15 +2717,15 @@ public class FutureTest {
 }
 ```
 
-![image-20200701155917886](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701155917886.png)
+![image-20200701155917886](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701155917886.png)
 
 
 
 ##### 错误回调
 
-![image-20200701160433180](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701160433180.png)
+![image-20200701160433180](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701160433180.png)
 
-![image-20200701160612240](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701160612240.png)
+![image-20200701160612240](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701160612240.png)
 
 
 
@@ -2756,7 +2756,7 @@ public class FutureTest {
 
 
 
-![image-20200701174357498](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701174357498.png)
+![image-20200701174357498](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701174357498.png)
 
 
 
@@ -2899,7 +2899,7 @@ public class VolatileTest02 {
 }
 ```
 
-![image-20200701215522293](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701215522293.png)
+![image-20200701215522293](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701215522293.png)
 
 
 
@@ -2909,14 +2909,14 @@ public class VolatileTest02 {
 
 我们需要知道这里的 **num++** 并不是一个原子性操作
 
-![image-20200701220249216](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701220249216.png)
+![image-20200701220249216](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701220249216.png)
 
 
 
 * **这时可以使用原子类解决原子性问题**
   * 这些类都是直接合操作系统挂钩！在内存中修改值
 
-![image-20200701220815489](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701220815489.png)
+![image-20200701220815489](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701220815489.png)
 
 
 
@@ -2961,16 +2961,16 @@ public class VolatileTest02 {
 }
 ```
 
-![image-20200701221411350](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701221411350.png)
+![image-20200701221411350](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701221411350.png)
 
 
 
 * getAndIncrement() 源码
   * unsafe是一个很特殊的类  （详情在后文）
 
-![image-20200701221108615](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701221108615.png)
+![image-20200701221108615](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701221108615.png)
 
-![image-20200701221222566](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701221222566.png)
+![image-20200701221222566](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701221222566.png)
 
 
 
@@ -2980,7 +2980,7 @@ public class VolatileTest02 {
 
 计算机在执行程序时，为了提高性能，编译器和处理器的常常会对==**指令做重排**==，一般分以下3种：
 
-![image-20200701222006913](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701222006913.png)
+![image-20200701222006913](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701222006913.png)
 
 * 单线程环境里面确保程序最终执行结果和代码顺序执行的结果一致
 
@@ -3028,7 +3028,7 @@ y = x + x;	// 4
   * 保持特定的操作的执行顺序
   * 可以保证某些变量的内存可见性 （也就是利用这些 实现了Volatile的可见性）
 
-  ![image-20200701225341844](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701225341844.png)
+  ![image-20200701225341844](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701225341844.png)
 
 
 
@@ -3085,7 +3085,7 @@ public class LazyMan {
 
 
 
-![image-20200617125039790](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200617125039790.png)
+![image-20200617125039790](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200617125039790.png)
 
 
 
@@ -3136,7 +3136,7 @@ public class DCLLazyMan {
 
 > 使用反射破解（通过无参构造器获取）
 
-![image-20200617131816754](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200617131816754.png)
+![image-20200617131816754](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200617131816754.png)
 
 * 解决方案：在构造方法加锁
 
@@ -3152,7 +3152,7 @@ private DCLLazyMan(){
 }
 ```
 
-![image-20200617134246665](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200617134246665.png)
+![image-20200617134246665](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200617134246665.png)
 
 
 
@@ -3160,7 +3160,7 @@ private DCLLazyMan(){
 
 > 通过反射获取两个实例破解     这时可以使用标志位（红绿灯）加锁
 
-![image-20200617134614560](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200617134614560.png)
+![image-20200617134614560](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200617134614560.png)
 
 
 
@@ -3182,7 +3182,7 @@ private LazyMan(){
 }
 ```
 
-![image-20200617135544343](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200617135544343.png)
+![image-20200617135544343](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200617135544343.png)
 
 
 
@@ -3192,7 +3192,7 @@ private LazyMan(){
 
 > 通过反射修改标志位破解    这时通过分析源码，应该使用枚举来阻止反射
 
-![image-20200617135446179](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200617135446179.png)
+![image-20200617135446179](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200617135446179.png)
 
 
 
@@ -3228,7 +3228,7 @@ public class Holder {
 
 源码：如果这个类是枚举，就不能通过反射破解
 
-![image-20200617141551851](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200617141551851.png)
+![image-20200617141551851](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200617141551851.png)
 
 * 测试枚举单例
 
@@ -3270,14 +3270,14 @@ class Test {
 
 没有空参构造方法
 
-![image-20200617141028322](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200617141028322.png)
+![image-20200617141028322](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200617141028322.png)
 
 
 
 * 通过 javap -p 反编译
   * 并没有进展 （使用更强大的jad）
 
-![image-20200701234647879](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200701234647879.png)
+![image-20200701234647879](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200701234647879.png)
 
 
 
@@ -3285,7 +3285,7 @@ class Test {
 
 发现构造方法中是有参的
 
-![image-20200617141214065](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200617141214065.png)
+![image-20200617141214065](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200617141214065.png)
 
 
 
@@ -3295,7 +3295,7 @@ class Test {
 
   抛出正确异常
 
-![image-20200617141310118](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200617141310118.png)
+![image-20200617141310118](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200617141310118.png)
 
 
 
@@ -3346,17 +3346,17 @@ public class CASDemo {
 }
 ```
 
-![image-20200702035401114](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200702035401114.png)
+![image-20200702035401114](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200702035401114.png)
 
 
 
 ### 19.2.UnSafe
 
-![image-20200702022306560](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200702022306560.png)
+![image-20200702022306560](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200702022306560.png)
 
-![image-20200702034509684](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200702034509684.png)
+![image-20200702034509684](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200702034509684.png)
 
-![image-20200702034614516](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200702034614516.png)
+![image-20200702034614516](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200702034614516.png)
 
 
 
@@ -3364,7 +3364,7 @@ public class CASDemo {
 
 左边线程在执行的过程中，期望值已经被右边线程改动了两次（改回原来的值），左边线程还以为是原来的样子
 
-![image-20200702040123824](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200702040123824.png)
+![image-20200702040123824](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200702040123824.png)
 
 #### 测试代码
 
@@ -3398,7 +3398,7 @@ public class CASDemo {
 }
 ```
 
-![image-20200702040733781](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200702040733781.png)
+![image-20200702040733781](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200702040733781.png)
 
 可以加版本号来解决这个问题
 
@@ -3414,7 +3414,7 @@ public class CASDemo {
 
 
 
-![image-20200702040953050](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200702040953050.png)
+![image-20200702040953050](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200702040953050.png)
 
 ```java
 package com.guo.cas;
@@ -3501,9 +3501,9 @@ public class CASDemo {
 
 非公平锁： 不公平，可以插队 （默认都是非公平锁）
 
-![image-20200702165614206](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200702165614206.png)
+![image-20200702165614206](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200702165614206.png)
 
-![image-20200702165748197](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200702165748197.png)
+![image-20200702165748197](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200702165748197.png)
 
 ```java
 /**
@@ -3531,7 +3531,7 @@ public ReentrantLock(boolean fair) {
 
 **可重入锁（递归锁）**
 
-![image-20200702170355638](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200702170355638.png)
+![image-20200702170355638](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200702170355638.png)
 
 
 
@@ -3566,7 +3566,7 @@ class Phone {
 }
 ```
 
-![image-20200702171844310](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200702171844310.png)
+![image-20200702171844310](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200702171844310.png)
 
 
 
@@ -3625,7 +3625,7 @@ class Phone2 {
 }
 ```
 
-![image-20200702171826260](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200702171826260.png)
+![image-20200702171826260](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200702171826260.png)
 
 
 
@@ -3633,7 +3633,7 @@ class Phone2 {
 
 **SpinLock**
 
-![image-20200702034614516](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200702034614516.png)
+![image-20200702034614516](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200702034614516.png)
 
 #### 1.自定义锁 SpinLockDemo
 
@@ -3728,13 +3728,13 @@ public class TestSpinLock {
 }
 ```
 
-![image-20200702194916990](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200702194916990.png)
+![image-20200702194916990](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200702194916990.png)
 
 
 
 ### 21.4.死锁
 
-![image-20200702195557473](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200702195557473.png)
+![image-20200702195557473](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200702195557473.png)
 
 #### 死锁的四个必要条件
 
@@ -3799,7 +3799,7 @@ class MyThread implements Runnable{
 }
 ```
 
-![image-20200702202830258](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200702202830258.png)
+![image-20200702202830258](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200702202830258.png)
 
 
 
@@ -3811,7 +3811,7 @@ class MyThread implements Runnable{
 jps -l
 ```
 
-![image-20200702203006471](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200702203006471.png)
+![image-20200702203006471](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200702203006471.png)
 
 
 
@@ -3823,6 +3823,6 @@ jstack [进程号]
 
 
 
-![image-20200702203336386](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200702203336386.png)
+![image-20200702203336386](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200702203336386.png)
 
-![image-20200702203558267](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20200702203558267.png)
+![image-20200702203558267](https://github.com/GokuDU/docsify-blog/tree/master/images/image-20200702203558267.png)
