@@ -6,4 +6,4 @@
 
 [GitHub](https://github.com/GokuDU)
 [Douban](https://www.douban.com/people/148032838/)
-[开始阅读](#我的博客)
+[开始阅读](#我的个人学习笔记)
