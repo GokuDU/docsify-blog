@@ -5,5 +5,4 @@
 <h1 align="center">docsify-blog</h1>
 
 [GitHub](https://github.com/GokuDU)
-[Douban](https://www.douban.com/people/148032838/)
 [开始阅读](#我的学习笔记)
