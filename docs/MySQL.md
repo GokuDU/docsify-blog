@@ -16,7 +16,7 @@
 
 必须记住基本的固定语法和关键字
 
-## 1.初始MySQL
+## 1.初识MySQL
 
 javaEE；企业级java开发 web
 
